@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borrow Book - Library Inventory System</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Borrow a Book</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Library Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Select a Book to Borrow</h2>
+      <form id="borrowBookForm">
+        <label for="borrowTitle">Book Title:</label>
+        <select id="borrowTitle" name="borrowTitle" required>
+          <!-- Options will be dynamically populated by JavaScript -->
+        </select>
+
+        <label for="borrowerName">Your Name:</label>
+        <input type="text" id="borrowerName" name="borrowerName" required>
+
+        <button type="submit">Borrow Book</button>
+      </form>
+
+      <div id="borrowStatus" style="margin-top: 20px; color: green; font-weight: bold;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>📚 Library Inventory System | Developed with ❤️</p>
+  </footer>
+
+  <script src="scripts/borrowBooks.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .hero h2 {
+    color: #444;
+  }
+  
+  .hero p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Form styles */
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List styles */
+  #bookList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #bookList li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #bookList li strong {
+    color: #444;
+  }
+  
+  /* Input search styles */
+  #search {
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+  }
+  
