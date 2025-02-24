@@ -76,7 +76,7 @@ CD ../FRONTEND
 NPM INSTALL
 ```
 
-### **3 RUN THE APPLICATION**
+### **RUN THE APPLICATION**
 #### **START BACKEND**
 ```sh
 CD BACKEND
@@ -99,5 +99,5 @@ THEN OPEN `HTTP://127.0.0.1:5500/FRONTEND/INDEX.HTML` IN YOUR BROWSER.
 
 ---  
 
-
+##**OUTPUT OF THE TASK**:![Image](https://github.com/user-attachments/assets/f09519b4-44d3-4787-9c55-92e79a58bee3)
 
